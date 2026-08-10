@@ -841,3 +841,24 @@ Axios
 ## 📄 License
 
 This project is intended for educational, research and portfolio purposes.
+## 📸 Dashboard Preview
+
+### Overview
+
+![VIGIL Overview](screenshots/overview.png)
+
+### Live Monitoring
+
+![VIGIL Live Monitor](screenshots/live-monitor.png)
+
+### Scenario Simulator
+
+![VIGIL Scenario Simulator](screenshots/scenario-simulator.png)
+
+### Analytics
+
+![VIGIL Analytics](screenshots/analytics.png)
+
+### Prediction History
+
+![VIGIL Prediction History](screenshots/prediction-history.png)
