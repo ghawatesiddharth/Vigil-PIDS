@@ -1,0 +1,27 @@
+{
+    "model_name": "Gradient Boosting Classifier",
+    "model_version": "1.0",
+    "problem_type": "Environmental Risk Classification",
+    "features": [
+        "wind_speed_kmh",
+        "rainfall_mm",
+        "temperature_c",
+        "humidity_percent",
+        "storm"
+    ],
+    "target": "risk_level",
+    "classes": [
+        "HIGH_RISK",
+        "LOW_RISK",
+        "MEDIUM_RISK"
+    ],
+    "accuracy": 0.8908,
+    "weighted_f1": 0.8895,
+    "high_risk_precision": 0.8966,
+    "high_risk_recall": 0.8125,
+    "sensitivity_mapping": {
+        "LOW_RISK": "HIGH",
+        "MEDIUM_RISK": "MEDIUM",
+        "HIGH_RISK": "LOW"
+    }
+}
